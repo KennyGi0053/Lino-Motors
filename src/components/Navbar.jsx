@@ -14,7 +14,7 @@ const Navbar = () => {
     }
   };
   return (
-    <nav className="w-full md:h-28 bg-neutral-900 ">
+    <nav className="w-full md:h-28 bg-black ">
         <div className="flex items-center justify-between">
         <img 
         src={logo} 
@@ -31,7 +31,7 @@ const Navbar = () => {
 
         {/* Menú horizontal en desktop */}
         <div className="hidden md:flex flex-row items-center space-x-10 mr-10">
-          {["inicio", "servicios", "especialidades", "por Qué elegirnos", "contacto"].map((id) => (
+          {["inicio", "servicios", "Nuestro proceso de servicio", "por Qué elegirnos", "contacto"].map((id) => (
             <button
               key={id}
               onClick={() => scrollToSection(id)}
@@ -46,7 +46,7 @@ const Navbar = () => {
       {/* Menú desplegable en móvil */}
       {open && (
         <div className="flex flex-col border-b-1 border-gray-300 shadow-md md:hidden gap-4 mt-2 px-4 pt-1 bg-white">
-          {["inicio", "servicios", "especialidades", "por Qué elegirnos", "contacto"].map((id) => (
+          {["inicio", "servicios", "Nuestro proceso de servicio", "por Qué elegirnos", "contacto"].map((id) => (
             <button
               key={id}
               onClick={() => scrollToSection(id)}
