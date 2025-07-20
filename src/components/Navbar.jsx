@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
-import logo from "../assets/logolinomotors5.png"
+import logo from "../assets/logolinomotors3.png"
+
 const Navbar = () => {
 
       const [open, setOpen] = useState(false);
@@ -13,12 +14,12 @@ const Navbar = () => {
     }
   };
   return (
-    <nav className="w-full h-30 bg-black">
+    <nav className="w-full md:h-28 bg-neutral-900 ">
         <div className="flex items-center justify-between">
         <img 
         src={logo} 
         alt="logo"
-        className="h-30 ml-6 "
+        className="h-28 ml-6 "
         />
  {/* Botón hamburguesa en pantallas pequeñas */}
         <button
@@ -30,7 +31,7 @@ const Navbar = () => {
 
         {/* Menú horizontal en desktop */}
         <div className="hidden md:flex flex-row items-center space-x-10 mr-10">
-          {["inicio", "sobremi", "proyectos", "habilidades", "contacto"].map((id) => (
+          {["inicio", "servicios", "especialidades", "por Qué elegirnos", "contacto"].map((id) => (
             <button
               key={id}
               onClick={() => scrollToSection(id)}
@@ -44,8 +45,8 @@ const Navbar = () => {
 
       {/* Menú desplegable en móvil */}
       {open && (
-        <div className="flex flex-col md:hidden gap-4 mt-2 px-4">
-          {["inicio", "sobremi", "proyectos", "habilidades", "contacto"].map((id) => (
+        <div className="flex flex-col border-b-1 border-gray-300 shadow-md md:hidden gap-4 mt-2 px-4 pt-1 bg-white">
+          {["inicio", "servicios", "especialidades", "por Qué elegirnos", "contacto"].map((id) => (
             <button
               key={id}
               onClick={() => scrollToSection(id)}
