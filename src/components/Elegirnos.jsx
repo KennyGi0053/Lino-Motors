@@ -8,7 +8,7 @@ const Elegirnos = () => {
   return (
     <div className="p-4 mt-6">
       <h1 className="text-xl font-bold text-center">¿Por Qué Elegirnos?</h1>
-      <div className="flex flex-col items-center justify-center text-center mt-6 md:flex-row md:gap-40">
+      <div className="flex flex-col items-center justify-center text-center mt-2 md:flex-row md:gap-40">
         <div className="flex flex-col items-center">
         <img 
         src={verificado} alt="verificado" 
