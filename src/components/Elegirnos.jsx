@@ -6,7 +6,7 @@ const Elegirnos = () => {
 
 
   return (
-    <div className="p-4 mt-20">
+    <div id="por-que-elegirnos" className="p-4 mt-20">
       <h1 className="text-xl font-bold text-center">¿Por Qué Elegirnos?</h1>
       <div className="flex flex-col items-center justify-center text-center mt-4 md:flex-row md:gap-40">
         <div className="flex flex-col items-center">
