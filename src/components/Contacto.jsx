@@ -15,22 +15,30 @@ const Contacto = () => {
           <h2 className="font-semibold">Información de Contacto</h2>
 
           {/* Teléfono */}
-          <div className="mt-4 flex flex-row items-center">
+          <a
+            href="tel:+584120238676"
+            className="mt-4 flex flex-row items-center"
+          >
             <img src={llamar} alt="llamar" className="w-10 h-10" />
             <div className="ml-4">
               <p className="text-sm font-bold">Teléfono</p>
               <p className="text-sm text-gray-500">+58 412-0238676</p>
             </div>
-          </div>
+          </a>
 
           {/* Whatsapp */}
-          <div className="mt-6 flex flex-row items-center">
-            <img src={whatsapp} alt="whatsapp" className="w-10 h-10" />
-            <div className="ml-4">
-              <p className="text-sm font-bold">Whatsapp</p>
-              <p className="text-sm text-gray-500">+58 412-0238676</p>
-            </div>
-          </div>
+          <a
+          href="https://wa.me/584120238676"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-6 flex flex-row items-center"
+          >
+          <img src={whatsapp} alt="whatsapp" className="w-10 h-10" />
+          <div className="ml-4">
+          <p className="text-sm font-bold">Whatsapp</p>
+          <p className="text-sm text-gray-500">+58 412-0238676</p>
+        </div>
+        </a>
 
           {/* Horario */}
           <div className="mt-6 flex flex-row items-center">
