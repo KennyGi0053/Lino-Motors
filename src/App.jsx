@@ -6,6 +6,7 @@ import Proceso from './components/Proceso'
 import Elegirnos from './components/Elegirnos'
 import Navbar from './components/Navbar'
 import Contacto from './components/Contacto'
+import Sobremi from './components/Sobremi'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <Navbar/>
       <Portada/>
       <Especialiadades/>
+      <Sobremi/>
       <Proceso/>
       <Elegirnos/>
       <Contacto/>
