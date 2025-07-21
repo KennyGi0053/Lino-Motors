@@ -8,7 +8,7 @@ const Contacto = () => {
       <h1 className="text-xl font-bold text-center">Contacto</h1>
 
       {/* Contenedor en dos columnas */}
-      <div className="p-6 mt-6 flex flex-col md:flex-row gap-8">
+      <div className="p-6 flex flex-col md:flex-row gap-8 md:mt-6">
 
         {/* Columna Izquierda - Información de Contacto */}
         <div className="md:w-1/2 md:ml-40">
