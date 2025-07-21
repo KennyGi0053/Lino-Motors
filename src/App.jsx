@@ -5,6 +5,7 @@ import Especialiadades from './components/Especialiadades'
 import Proceso from './components/Proceso'
 import Elegirnos from './components/Elegirnos'
 import Navbar from './components/Navbar'
+import Contacto from './components/Contacto'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <Especialiadades/>
       <Proceso/>
       <Elegirnos/>
+      <Contacto/>
     </div>
   )
 }
