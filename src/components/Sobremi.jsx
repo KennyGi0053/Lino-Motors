@@ -28,7 +28,7 @@ const Sobremi = () => {
 
             Cada servicio es realizado con dedicación y precisión, buscando siempre que tu auto salga en mejores condiciones de las que entró. Mi objetivo es que cada cliente se sienta respaldado, con la tranquilidad de dejar su vehículo en manos de alguien que realmente se preocupa por su seguridad y rendimiento.
 
-            Gracias por confiar en mi trabajo. ¡Estoy aquí para ayudarte a mantener tu vehículo en su mejor estado!</p>
+            Gracias por confiar en mi trabajo. ¡Estoy aquí para ayudarte a mantener tu vehículo en óptimas condiciones!</p>
         </div>
       </div>
     </div>
