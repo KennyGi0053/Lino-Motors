@@ -2,7 +2,7 @@ import fotolino from "../assets/fotolino.jpg";
 
 const Sobremi = () => {
   return (
-    <div className="p-4 mt-20">
+    <div id="quiensoy" className="p-4 mt-20">
       <div className="flex flex-col md:flex-row items-center md:items-start max-w-6xl mx-auto">
         <img
           src={fotolino}
