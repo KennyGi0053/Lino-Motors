@@ -6,9 +6,9 @@ import cochecheck from "../assets/cochecheck.png"
 
 const Proceso = () => {
   return (
-    <div className="p-4 mt-6 bg-gray-100">
+    <div className="p-4 mt-20 bg-gray-100">
       <h1 className=" text-xl text-center font-bold">Nuestro Proceso de Servicio</h1>
-    <div className="p-4 mt-8 flex flex-row gap-8 overflow-x-auto md:items-center md:justify-center md:gap-28">
+    <div className="p-4 mt-4 flex flex-row gap-8 overflow-x-auto md:items-center md:justify-center md:gap-28">
         <div className="flex flex-col items-center bg-white shadow-md rounded-lg text-center min-w-40 h-28 p-4 md:w-60">
             <img src={coche} alt="diagnostico" 
             className="w-12 h-12"

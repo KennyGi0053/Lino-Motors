@@ -6,7 +6,7 @@ import piston from "../assets/piston.gif"
 
 const Especialiadades = () => {
   return (
-    <div className='p-4 mt-4'>
+    <div className='p-4 mt-20'>
       <h1 className='text-xl text-center font-bold'>Especialidades y Servicios</h1>
       <div className='flex flex-col items-center justify-center mt-6 md:flex-row md:gap-20 gap-6'>
         <div className='flex flex-col items-center bg-white shadow-md rounded-xl p-4 w-80 md:w-80 '>

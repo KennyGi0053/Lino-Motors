@@ -4,7 +4,7 @@ import reloj from "../assets/reloj.png"
 
 const Contacto = () => {
   return (
-    <div className="p-4 mt-6">
+    <div className="p-4 mt-20">
       <h1 className="text-xl font-bold text-center">Contacto</h1>
 
       {/* Contenedor en dos columnas */}
