@@ -24,7 +24,7 @@ const Sobremi = () => {
             Si tu vehículo presenta alguna falla, estoy listo para ayudarte con
             tecnología y experiencia.
           </p>
-          <p className="text-md text-justify text-gray-600 mt-4 leading-relaxed">Ofrezco servicios de mecánica general —como mantenimiento preventivo, cambio de aceite, correas, frenos, tren delantero, entre otros— así como trabajos de electricidad automotriz, asegurando un funcionamiento óptimo del sistema eléctrico del vehículo.
+          <p className="text-md text-justify text-gray-600 mt-4 leading-relaxed">Ofrezco servicios de mecánica general, como mantenimiento preventivo, cambio de aceite, correas, frenos, tren delantero, entre otros, así como trabajos de electricidad automotriz, asegurando un funcionamiento óptimo del sistema eléctrico del vehículo.
 
             Cada servicio es realizado con dedicación y precisión, buscando siempre que tu auto salga en mejores condiciones de las que entró. Mi objetivo es que cada cliente se sienta respaldado, con la tranquilidad de dejar su vehículo en manos de alguien que realmente se preocupa por su seguridad y rendimiento.
 
