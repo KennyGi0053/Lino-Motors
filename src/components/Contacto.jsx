@@ -45,7 +45,7 @@ const Contacto = () => {
             <img src={reloj} alt="reloj" className="w-10 h-10" />
             <div className="ml-4">
               <p className="text-sm font-bold">Horario</p>
-              <p className="text-sm text-gray-500">Lunes a Viernes - 9:00 am a 6:00 pm</p>
+              <p className="text-sm text-gray-500">Lunes a Sábado - 8:00 am a 5:00 pm</p>
             </div>
           </div>
         </div>
