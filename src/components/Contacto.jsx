@@ -55,7 +55,7 @@ const Contacto = () => {
           <h2 className="font-semibold mt-6 md:mt-0">Ubicación</h2>
           <div className="w-full h-72 rounded overflow-hidden shadow-md mt-4">
             <iframe
-              src="https://www.google.com/maps/place/Caracas,+Distrito+Capital/data=!4m2!3m1!1s0x8c2a58adcd824807:0x93dd2eae0a998483?sa=X&ved=1t:242&ictx=111"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125549.02257038711!2d-66.97276689870503!3d10.468549974610536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c2a58adcd824807%3A0x93dd2eae0a998483!2sCaracas%2C%20Distrito%20Capital!5e0!3m2!1ses!2sve!4v1753406503745!5m2!1ses!2sve"
               width="100%"
               height="100%"
               style={{ border: 0 }}
